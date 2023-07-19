@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer Portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Sans+Condensed:ital,wght@1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet"> -->
+
+  <!-- <script src="https://kit.fontawesome.com/4a3d4d1eb0.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+
+
+  <header class="container nav__link--active">
+    <nav class="nav nav__link--active">
+      <div class="nav-top">
+
+        <a id="nav-branding nav__link" href="#">99STr</a>
+        <a class="nav__link  nav-item" id="nav-contact" href="#contact" aria-label="contact">
+          <!-- <i class="material-symbols-outlined nav__icon">
+        mail
+      </i> -->
+          <span class="nav__text">Contact</span>
+        </a>
+      </div>
+
+      <ul class="nav-menu nav__link--active">
+
+        <li class="nav-item ">
+          <a href="#hero" aria-label="hero" class="nav__link">
+            <i class="material-symbols-outlined nav__icon">
+              home
+            </i>
+            <span class="nav__text">Home</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#about" aria-label="about" class="nav__link ">
+            <i class="material-symbols-outlined nav__icon">
+              person
+            </i>
+            <span class="nav__text">Profile</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#portfolio" aria-label="portfolio" class="nav__link">
+            <i class="material-symbols-outlined nav__icon">
+              folder_open
+            </i>
+            <span class="nav__text">Projects</span>
+          </a>
+        </li>
+
+        <li class="nav-item nav-desktop">
+          <a href="#skill" class="nav__link">
+            <i class="material-symbols-outlined  nav__icon">
+              code
+            </i>
+            <span class="nav__text">Skills</span>
+          </a>
+        </li>
+
+        <li class="nav-item nav-desktop">
+          <a href="#service" class="nav__link">
+            <i class="material-symbols-outlined  nav__icon">
+              folder_managed
+            </i>
+            <span class="nav__text">Service</span>
+          </a>
+        </li>
+
+        <li class="nav-item nav-desktop">
+          <a href="#" class="nav__link">
+            <i class="material-symbols-outlined  nav__icon">
+              description
+            </i>
+            <span class="nav__text">Resume</span>
+          </a>
+        </li>
+        <!-- 
+          <li class="nav-item nav-desktop">
+            <a href="#" class="nav__link">
+              <i class="material-symbols-outlined  nav__icon">
+                rss_feed
+              </i>
+              <span class="nav__text">Blog</span>
+            </a>
+          </li> -->
+
+        <li class="nav-item">
+          <a href="#contact" aria-label="contact" class="nav__link">
+            <i class="material-symbols-outlined nav__icon">
+              mail
+            </i>
+            <span class="nav__text">Contact</span>
+          </a>
+        </li>
+
+
+
+        <li class="dropdown nav-item nav__link nav-mobile ">
+
+          <button onclick="myFunction()" class="dropbtn">
+            <i class="material-symbols-outlined nav__icon dropbtn">grid_view</i><span
+              class="nav__text dropbtn more">More</span></button>
+
+          <ul id="myDropdown" class="dropdown-content">
+
+            <li class="nav-item"><a href="#" class="nav__link"><i
+                  class="material-symbols-outlined  nav__icon">code</i><span class="nav__text">Skills</span></a></li>
+
+            <li class="nav-item"><a href="#service" class="nav__link"><i
+                  class="material-symbols-outlined  nav__icon">folder_managed</i><span
+                  class="nav__text">Service</span></a></li>
+
+            <li class="nav-item"><a href="#" class="nav__link"><i
+                  class="material-symbols-outlined  nav__icon">description</i><span class="nav__text">Resume</span></a>
+            </li>
+            <!-- 
+              <li class="nav-item"><a href="#" class="nav__link"><i
+                    class="material-symbols-outlined  nav__icon">rss_feed</i><span class="nav__text">Blog</span></a></li> -->
+            <div class="line"></div>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- The end of header section of the page -->
+                                                    
+                                                    
+  <!-- The main hero section of the page -->        
+                                                    
+  <section class="section__body">                   
+                                                    
+                                                    
+    <section class="hero" id="hero">                
+                                                    
+        <div class="intro">            
+          <h3>Hi! I'm </h3>                         
+          <h1>Paul Kufre</h1>                       
+          <h3><span>I am a</span> <span class="input"></span></h3>
+        </div>                                      
+               <div class="cta-buttons">            
+          <button type="button" class="cta-button" onclick="window.location.href='#about'">Hire Me</button>
+          <button type="button" class="cta-button" id="mywork" onclick="window.location.href='#contact'">My
+            Work</button>                           
+        </div>                                      
+      </div>                                        
+                                                    
+    </section>                                      
+    <!-- The End of hero Section of the page -->    
+                                          
+    <!-- ............................................................. -->
+                                       
+                                          
+    <!-- The Abut section of the page --> 
+    <main class="main" id="main">         
+      <section class="about " id="about"> 
+        <h2>About Me</h2>                 
+        <!-- <br> -->                     
+        <h2>Personal Profile</h2>         
+        <p>I am a web developer with a passion for creating visually appealing and user-friendly websites. With a
+          background in                   
+          computer science and 5 years of industry experience, I have honed my skills in front-end development and user
+          experience design.</p>          
+                                          
+        <h2>Professional Summary</h2>     
+        <p>With a strong foundation in HTML, CSS, and JavaScript, I am skilled in creating responsive, cross-browser
+          compatible                      
+          websites that meet the needs of both users and businesses. I am committed to staying up-to-date with the
+          latest                          
+          web                             
+          technologies and industry trends, and I am always eager to learn and grow as a developer.</p>
+                                          
+        <h2>Skills</h2>              
+        <ul>                         
+          <li>HTML</li>              
+          <li>CSS</li>               
+          <li>JavaScript</li>        
+          <li>Responsive design</li>
+          <li>Cross-browser compatibility</li>
+        </ul>         
+                      
+        <h2>Work Experience</h2>
+        <h3>Web Developer, ABC Company</h3>
+        <p><strong>Dates of Employment:</strong> January 2018 - Present</p>
+        <ul>
+          <li>Developed and maintained the company's website, ensuring its compatibility with the latest web standards
+            and
+            technologies.</li>
+          <li>Designed and implemented new features to improve the user experience, including a responsive design and
+            enhanced
+            navigation.</li>
+          <li>Collaborated with the marketing team to create and maintain a content strategy, including the creation of
+            engaging
+            blog posts and social media campaigns.</li>
+        </ul>
+
+        <h2>Projects</h2>
+        <h3>XYZ Website Redesign</h3>
+        <p>As the lead developer on this project, I was responsible for redesigning the XYZ website to improve its
+          visual
+          appeal
+          and usability. I worked closely with the design team to create a responsive layout that was optimized for both
+          desktop
+          and mobile devices, and I used HTML, CSS, and JavaScript to bring the design to life.</p>
+
+        <h2>Education</h2>
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p>University of Technology, Nigeria</p>
+
+        <h2>Hobbies and Interests</h2>
+        <p>In my free time, I enjoy reading about the latest web development trends and experimenting with new
+          technologies. I
+          also enjoy playing soccer and watching movies.</p>
+
+        <div class="cta-buttons">
+          <button class="cta-button" onclick="window.location.href='#contact'">Contact Me</button>
+          <button class="cta-button" onclick="window.location.href='#portfolio'">Download CV</button>
+        </div>
+
+      </section>
+
+      <!-- The End of About Section of the page-->
+
+      <!-- ............................................................. -->
+
+
+
+      <!-- THe Portfolio Section section of the page -->
+
+      <section id="portfolio">
+        <div class="portfolio-container">
+          <h2>Portfolio</h2>
+
+          <nav class="portfolio-nav">
+            <ul>
+              <li><a href="#web-development">Web Development</a></li>
+              <li><a href="#graphic-design">Graphic Design</a></li>
+              <li><a href="#mobile-apps">Mobile Apps</a></li>
+            </ul>
+          </nav>
+
+          <section id="web-development">
+            <h3>Web Development Projects</h3>
+
+            <div class="project">
+              <h4>E-commerce Website for XYZ</h4>
+              <img src="xyz-ecommerce.jpg" alt="XYZ E-commerce Website">
+              <p>I built a custom e-commerce website for XYZ, using React, Node.js, and a custom API. The website
+                features
+                a
+                user-friendly interface, a secure payment system, and responsive design. I also provided ongoing
+                maintenance and
+                support for the site.</p>
+              <div class="cta-buttons">
+                <a href="#xyz-ecommerce-details" class="cta-button">ViewProjectDetails</a>
+                <a href="#xyz-ecommerce-details" class="cta-button">LiveDemo</a>
+              </div>
+            </div>
+
+            <div class="project">
+              <h4>Blog Website for ABC</h4>
+              <img src="abc-blog.jpg" alt="ABC Blog Website">
+              <p>I designed and developed a blog website for ABC, using WordPress and custom plugins. The website
+                features
+                a
+                clean and modern design, easy-to-use back-end, and optimized for search engines. I also provided
+                training
+                for
+                the client on how to use and maintain the site.</p>
+              <div class="cta-buttons">
+                <a href="#abc-blog-details" class="cta-button">ViewProjectDetails</a>
+                <a href="#abc-blog-details" class="cta-button">LiveDemo</a>
+              </div>
+            </div>
+          </section>
+
+          <section id="graphic-design">
+            <!-- Similar content as the web development section -->
+            <div class="cta-buttons">
+              <a href="#ViewProjectDetails" class="cta-button">ViewProjectDetails</a>
+              <a href="#ViewProjectDetails" class="cta-button">LiveDemo</a>
+            </div>
+          </section>
+
+          <section id="mobile-apps">
+            <!-- Similar content as the web development section -->
+            <div class="cta-buttons">
+              <a href="#ViewProjectDetails" class="cta-button">ViewProjectDetails</a>
+              <a href="#ViewProjectDetails" class="cta-button">LiveDemo</a>
+            </div>
+          </section>
+
+          <section id="xyz-ecommerce-details">
+            <!-- Detailed description of the XYZ e-commerce project -->
+            <div class="cta-buttons">
+              <a href="#ViewProjectDetails" class="cta-button">ViewProjectDetails</a>
+              <a href="#LiveDemo" class="cta-button">LiveDemo</a>
+            </div>
+          </section>
+
+          <section id="abc-blog-details">
+            <!-- Detailed description of the ABC blog project -->
+          </section>
+        </div>
+      </section>
+
+
+      <!--THe End of Portfolio Section -->
+
+      <!-- ............................................................. -->
+      <!-- ............................................................. -->
+
+
+
+      <!--The Service Section of the page-->
+
+
+      <section id="service" class="services">
+        <div class="service-category">
+          <h2>Web Development</h2>
+          <p>Our web development services include custom website development, content management systems, e-commerce
+            solutions, and more. We work closely with clients to understand their needs and develop websites that are
+            user-friendly and easy to navigate.</p>
+          <a href="#" class="cta-button">Learn more</a>
+        </div>
+
+        <div class="service-category">
+          <h2>Web Design</h2>
+          <p>Our web design services include website redesigns, mobile responsive design, and user experience design. We
+            create designs that are visually appealing and help to communicate the client's message effectively.</p>
+          <a href="#" class="cta-button">Learn more</a>
+        </div>
+
+        <div class="service-category">
+          <h2>Maintenance and Support</h2>
+          <p>We offer maintenance and support services to ensure that our clients' websites are up-to-date, secure, and
+            performing well. Our services include software updates, security monitoring, and technical support.</p>
+          <a href="#" class="cta-button">Learn more</a>
+        </div>
+      </section>
+
+
+      <!--The End of Service Section of the page-->
+
+      <!-- ............................................................. -->
+      <!-- ............................................................. -->
+
+
+
+      <!-- The Blog Section of the page-->
+      <!-- blog content will go in here -->
+
+
+      <!-- The End of Blog Section of the page-->
+
+      <!-- ............................................................. -->
+      <!-- ............................................................. -->
+
+
+
+      <!-- The Contact Section of the page-->
+
+      <section id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p><strong>Email:</strong> webdev@example.com</p>
+          <p><strong>Phone:</strong> (123) 456-7890</p>
+          <p><strong>Address:</strong> 123 Main St, Anytown USA</p>
+        </div>
+
+        <div class="social-media">
+          <h2>Connect with Me</h2>
+          <ul>
+            <li><a href="https://linkedin.com/in/yourname">LinkedIn</a></li>
+            <li><a href="https://twitter.com/yourname">Twitter</a></li>
+            <li><a href="https://github.com/yourname">GitHub</a></li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- The End of Contact Section of the page-->
+      <!-- ............................................................. -->
+
+    </main>
+    <!-- The End of main Section of the page-->
+    <!-- ............................................................. -->
+
+
+    <!--The Footer Section of the page-->
+
+    <footer>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>123 Main St<br> Anytown, USA 12345</p>
+        <p>Phone: 555-123-4567</p>
+        <p>Email: info@example.com</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/example"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/example"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/example"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/example"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h3>Site Links</h3>
+        <ul>
+          <li><a href="/">hero</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-info">
+        <p>&copy; 2023 Example Inc.</p>
+        <p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-use">Terms of Use</a></p>
+        <p>Accessibility Statement</p>
+        <p><a href="/sitemap">Sitemap</a></p>
+      </div>
+    </footer>
+    <!-- The End of Footer Section of the page-->
+
+    <!-- ............................................................. -->
+
+  </section>
+
+
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+
+
+  var typed = new Typed(".input", {
+    strings: ["Web Developer"],
+    typeSpeed: 100,
+    backSpeed: 25,
+    loop: true
+  });
+
+
+
+
+  </script>
+</body>
+
+</html>
